@@ -1,21 +1,28 @@
+/* Стили для текста */
 body {
-  font-family: sans-serif;
-  line-height: 1.5;
-
-  background-color: #f9f9f9;
-  color: #333333;
-
-  width: 980px;
-  margin: 0 auto;
+  font-family: Arial, sans-serif; /* Выбираем шрифт */
+  line-height: 1.6; /* Высота строки */
+  color: #333; /* Цвет текста */
 }
 
 h1 {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 0;
+  font-size: 32px; /* Размер заголовка h1 */
 }
 
-main > h2 {
-  text-align: center;
-  font-size: 25px;
+h3 {
+  font-size: 18px; /* Размер заголовка h3 */
+}
+
+strong {
+  font-weight: bold; /* Жирный текст */
+}
+
+/* Стили для гиперссылок */
+a {
+  color: #FF5733; /* Цвет ссылок */
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+a:hover {
+  color: #FFA07A; /* Цвет ссылки при наведении */
 }
