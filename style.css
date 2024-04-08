@@ -26,3 +26,15 @@ a {
 a:hover {
   color: #FFA07A; /* Цвет ссылки при наведении */
 }
+
+body {
+    color: white; /* устанавливаем цвет текста */
+    background-color: black; /* устанавливаем цвет фона */
+}
+.rounded-image {
+    border-radius: 10px; /* задаем радиус скругления в пикселях */
+} 
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
