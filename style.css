@@ -38,3 +38,15 @@ body {
 body {
     font-family: 'Roboto Slab', serif;
 }
+
+button {
+    background-color: #ff7300; /* Цвет фона кнопки */
+    color: black; /* Цвет текста кнопки */
+    padding: 10px 20px; /* Внутренние отступы кнопки */
+    border: none; /* Убираем границу кнопки */
+    border-radius: 5px; /* Скругляем углы кнопки */
+    font-size: 16px; /* Размер текста кнопки */
+    cursor: pointer; /* Изменяем вид курсора при наведении на кнопку */
+}
+
+
